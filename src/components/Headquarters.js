@@ -25,7 +25,7 @@ class Headquarters extends Component {
         </Grid.Column>
         <Grid.Column width={3}>
 
-        <LogPanel ableToActivate={this.props.ableToActivate} handleActivateAll={this.props.handleActivateAll}/>
+        <LogPanel logs={this.props.logs} ableToActivate={this.props.ableToActivate} handleActivateAll={this.props.handleActivateAll}/>
 
         </Grid.Column>
       </Grid>
